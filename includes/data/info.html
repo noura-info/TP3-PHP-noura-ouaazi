@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire GET</title>
+</head>
+<body>
+    <h1>Informations personnelles</h1>
+
+    <form action="info.php" method="GET">
+        <label>Nom :
+            <input type="text" name="nom" required>
+        </label><br><br>
+
+        <label>Prénom :
+            <input type="text" name="prenom" required>
+        </label><br><br>
+
+        <label>Sexe :
+            <select name="sexe" required>
+                <option value="M">Masculin</option>
+                <option value="F">Féminin</option>
+            </select>
+        </label><br><br>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+</html>
